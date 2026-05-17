@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="weatherStyle.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <!-- navbar  -->
+        <nav class="navbar">
+            <div class="navbarLeft">
+                <h2>Weather Dashboard</h2>
+            </div>
+            <div class="navbarRight">
+                <div class="clock">
+                    clock
+                </div>
+                <span>|</span>
+                <div class="day">
+                    day
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Search Section -->
+        <section class="search-section">
+            <div class="search">
+                <input class="searchInput" type="text" placeholder="Search City">
+                <button class="searchbtn">Search</button>
+            </div>
+            <div class="error-msg">
+                <span></span>
+            </div>
+        </section>
+
+        <!-- display weather results section  -->
+         <section class="display-weather-section">
+            <div class="weather">
+                <span class="cloud-icon">🌤</span>
+                <h1>Where in the world?</h1>
+                <p>Enter a city name to retrieve live weather intelligence</p>
+            </div>
+            <div class="show-history">
+                 
+            </div>
+        </section>
+    </main>
+
+    <script src="WeatherScript.js"></script>
+</body>
+
+</html>
